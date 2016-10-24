@@ -7,10 +7,10 @@ import java.io.IOException;
 /**
  * Created by a.haman on 17/10/2016.
  */
-public class Servlet extends HttpServlet {
+public class Servlet2 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().print("<h1>Hello world!</h1>");
+        resp.getWriter().print("<h1>Hello world! ))))</h1>");
     }
 }
